@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("../mes_images/modale.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.menu{
+    float: right;
+    width: 400px;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    padding-top: 37px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+    
+}
+.search{
+    width: 330px;
+    float: left;
+    padding-left: 270px;
+    padding-top: 27px;
+    color: #fff;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    margin-top: 1px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 1px;
+    color: #fff;
+    font-size: 16px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    color: #fff;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 95px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+.cn:hover{
+    background-color: white;
+    transition: .3s;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.from{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.from h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.from .input{
+    width: 240px;
+    height: 35px;
+    border: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:black ;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.from input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+}
+.from .link{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.from .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+.titre{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.image{
+    width: 45%;
+}
+.image img{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 90px;
+    border-radius: 5px;
+    
+    
+}
+.ident{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.description{
+    text-align: justify;
+    margin-top: 90px;
+   width: 55%;
+}
+.paraphe{
+    width: 80%;
+    line-height: 20px;
+}
+span{
+    color: red;
+}
+.bouton{
+    background: #ff7200;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    width: 100px;
+}
+.bouton a{
+    text-decoration: none;
+    color: #111;
+}
+.horaire h2{
+    margin-bottom: 10px;
+}
+.horaire{
+    margin-left: 90px;
+}
+table tr td{
+    padding: 10px;
+}
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #111;
+    color: #fff;
+    line-height: 40px;
+}
+footer p{
+    font-size: 12px;
+    color: #ccc;
+    cursor: pointer;
+}
+footer p:hover{
+    color: #fff;
+}
